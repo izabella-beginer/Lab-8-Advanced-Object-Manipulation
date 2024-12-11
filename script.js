@@ -21,4 +21,10 @@ console.log(student.name);
 console.log(courses);
 
 let scores = [80,86,90,96,94];
-console.log(scores);
+let [firstscore, secondscore, thirdscore,fourthscore,fifthscore] = numbers;
+console.log(firstscore);
+console.log(secondscore); 
+console.log(thirdscore); 
+console.log(fourthscore); 
+console.log(fifthscore);
+
