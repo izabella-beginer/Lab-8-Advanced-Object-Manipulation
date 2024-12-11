@@ -10,3 +10,12 @@ let student = {
     student.log(student.displayinfo);
 }
 }
+let jsonstudent = JSON.parse(jsonstudent);
+console.log(jsonstudent.name)
+
+let jsonString = JSON.stringify(student);
+console.log(jsonstudent)
+
+let {name,age,courses}= student;
+console.log(student.name);
+console.log(courses);
