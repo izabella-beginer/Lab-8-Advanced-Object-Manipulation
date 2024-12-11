@@ -4,8 +4,9 @@ let student = {
     enrolled: true,
     courses: ['javascript','web dev','algorithm','databse','wrti'],
     displayinfo: function () {
-    console.log(person.name); // Output: izabella
-    console.log(person.age); // Output: 24
-    console.log(person.courses);
+    console.log(student.name); // Output: izabella
+    console.log(student.age); // Output: 24
+    console.log(student.courses);
+    student.log(student.displayinfo);
 }
 }
