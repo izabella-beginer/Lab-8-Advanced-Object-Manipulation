@@ -31,3 +31,11 @@ console.log(fifthscore);
 
 let studentsobj ={ ...student,graduationyear: 2018};
 console.log(studentsobj);
+
+let newcourse = [ "math"];
+console.log(courses);
+
+student.addcourse = function(){
+    this.course.push("science");
+};
+console.log(student.courses);
