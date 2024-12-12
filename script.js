@@ -12,6 +12,7 @@ let student = {
 }
 let jsonstudent = JSON.parse(jsonstudent);
 console.log(jsonstudent.name)
+console.log(studentsobj);
 
 let jsonString = JSON.stringify(student);
 console.log(jsonstudent)
@@ -28,3 +29,5 @@ console.log(thirdscore);
 console.log(fourthscore); 
 console.log(fifthscore);
 
+let studentsobj ={ ...student,graduationyear: 2018};
+console.log(studentsobj);
